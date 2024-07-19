@@ -1,5 +1,5 @@
 # Curso de Java do Mr. Nelio Alves
-Projetos  e resolução de exercícios do curso de java do Mr. Nelio Alves na udemy
+Projetos  e resolução de exercícios do curso de Java do Mr. Nelio Alves na udemy
 
 ---
 
