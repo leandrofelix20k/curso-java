@@ -52,6 +52,8 @@ ano. Dizer também se o aluno está aprovado (PASS) ou não (FAILED) e, em caso 
 para o aluno obter o mínimo para ser aprovado (que é 60% da nota). Você deve criar uma classe Student para
 resolver este problema
 
+Exemplos:
+
 | **Entrada** | **Saída**         |
 |-------------|-------------------|
 | Alex Green  | FINAL GRADE = 90. |
@@ -72,6 +74,8 @@ Faça um programa para ler a cotação do dólar, e depois um valor em dólares 
 uma pessoa em reais. Informar quantos reais a pessoa vai pagar pelos dólares, considerando ainda
 que a pessoa terá que pagar 6% de IOF sobre o valor em dólar. Criar uma classe CurrencyConverter
 para ser responsável pelos cálculos.
+
+Exemplos
 
 >What is the dollar price? 3.10
 > 
