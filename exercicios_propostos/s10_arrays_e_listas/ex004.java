@@ -1,31 +1,33 @@
 package exercicios_propostos.s10_arrays_e_listas;
 
-import java.awt.*;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ex001 {
-    public static void main(String[] args){
+public class ex004 {
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int n;
+        int cont=0;
 
         System.out.print("Quantos numeros voce vai digitar? ");
-        n = sc.nextInt();
+        int n = sc.nextInt();
         int[] valores = new int[n];
 
-        for(int i = 0; i < valores.length; i++){
+        for(int i = 0; i < n; i++){
             System.out.print("Digite um numero: ");
             valores[i] = sc.nextInt();
         }
 
-        System.out.println("NUMEROS NEGATIVOS: ");
-        for(int i = 0; i < valores.length; i++){
-            if(valores[i] < 0){
-                System.out.println(valores[i]);
+        System.out.println("\nNUMEROS PARES: ");
+        for(int i = 0; i < n; i++){
+            if(valores[i] % 2 == 0){
+                System.out.print(valores[i] + " ");
+                cont += 1;
             }
         }
+
+        System.out.println("\n\nQUANTIDADE DE PARES = " + cont);
 
         sc.close();
     }
