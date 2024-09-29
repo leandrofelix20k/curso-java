@@ -1,9 +1,9 @@
-package exercicios_propostos.s10_arrays_e_listas;
+package exercicios_propostos.s10_arrays_e_listas.vetores;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ex008 {
+public class Ex007 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -11,24 +11,23 @@ public class ex008 {
         System.out.print("Quantos elementos vai ter o vetor? ");
         int n = sc.nextInt();
         double[] valores = new double[n];
-        double mediaPares = 0;
-        int cont = 0;
+        double media = 0;
 
         for(int i = 0; i < n; i++){
             System.out.print("Digite um numero: ");
             valores[i] = sc.nextDouble();
 
-            if(valores[i] % 2 == 0){
-                mediaPares += valores[i];
-                cont++;
-            }
+            media += valores[i];
         }
 
-        if(cont == 0){
-            System.out.println("NENHUM NUMERO PAR");
-        } else {
-            mediaPares /= cont;
-            System.out.printf("MEDIA DO VETOR = %.1f", mediaPares);
+        media /= valores.length;
+        System.out.printf("\n\nMEDIA DO VETOR = %.3f", media);
+
+        System.out.println("\nELEMENTOS ABAIXO DA MEDIA:");
+        for(int i = 0; i < n; i++){
+            if(valores[i] < media){
+                System.out.println(valores[i]);
+            }
         }
 
         sc.close();

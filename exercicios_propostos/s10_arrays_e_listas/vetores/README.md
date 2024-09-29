@@ -1,4 +1,4 @@
-# Exercícios Propostos:
+# Exercícios Propostos (Vetores):
 
 ## Exercício 01: **Problema "negativos"**
 
@@ -247,4 +247,3 @@ Exemplo:
 > **Maior altura = 1.83**  
 > **Media das alturas das mulheres = 1.69**  
 > **Numero de homens = 2**
-

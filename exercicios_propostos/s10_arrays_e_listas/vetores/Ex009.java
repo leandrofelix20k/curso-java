@@ -1,8 +1,8 @@
-package exercicios_propostos.s10_arrays_e_listas;
+package exercicios_propostos.s10_arrays_e_listas.vetores;
 
 import java.util.Scanner;
 
-public class ex009 {
+public class Ex009 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

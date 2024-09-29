@@ -1,9 +1,9 @@
-package exercicios_propostos.s10_arrays_e_listas;
+package exercicios_propostos.s10_arrays_e_listas.vetores;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ex010 {
+public class Ex010 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);

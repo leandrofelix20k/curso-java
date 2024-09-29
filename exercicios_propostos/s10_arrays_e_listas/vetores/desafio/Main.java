@@ -1,4 +1,4 @@
-package exercicios_propostos.s10_arrays_e_listas.desafio;
+package exercicios_propostos.s10_arrays_e_listas.vetores.desafio;
 
 import java.util.Scanner;
 
