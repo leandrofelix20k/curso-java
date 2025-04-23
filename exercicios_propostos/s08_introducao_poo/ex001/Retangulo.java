@@ -1,4 +1,4 @@
-package exercicios_propostos.s8_introducao_poo.ex001;
+package exercicios_propostos.s08_introducao_poo.ex001;
 
 public class Retangulo {
     private double largura;

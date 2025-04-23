@@ -1,4 +1,4 @@
-package exercicios_propostos.s9_pilares_poo;
+package exercicios_propostos.s09_pilares_poo;
 
 import java.util.Locale;
 import java.util.Scanner;

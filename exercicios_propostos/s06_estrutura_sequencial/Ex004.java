@@ -1,4 +1,4 @@
-package exercicios_propostos.s6_estrutura_sequencial;
+package exercicios_propostos.s06_estrutura_sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package exercicios_propostos.s8_introducao_poo.ex002;
+package exercicios_propostos.s08_introducao_poo.ex002;
 
 public class Funcionario {
     private String nome;

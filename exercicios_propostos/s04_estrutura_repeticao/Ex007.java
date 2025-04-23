@@ -1,4 +1,4 @@
-package exercicios_propostos.s4_estrutura_repeticao;
+package exercicios_propostos.s04_estrutura_repeticao;
 
 import java.util.Locale;
 import java.util.Scanner;

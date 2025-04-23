@@ -1,4 +1,4 @@
-package exercicios_propostos.s5_estrutura_condicional;
+package exercicios_propostos.s05_estrutura_condicional;
 
 import java.util.Scanner;
 

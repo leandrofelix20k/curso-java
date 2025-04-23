@@ -1,4 +1,4 @@
-package exercicios_propostos.s8_introducao_poo.ex003;
+package exercicios_propostos.s08_introducao_poo.ex003;
 
 public class Aluno {
     private String nome;
