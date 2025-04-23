@@ -1,7 +1,5 @@
 package exercicios_propostos.s10_arrays_e_listas.listas;
 
-import java.text.Format;
-
 public class Funcionario {
     private long id;
     private String nome;

@@ -10,7 +10,7 @@ public class aplication {
 
         ContaBancaria contaBancaria;
         String nome, op;
-        double deposito, depositoInicial;
+        double depositoInicial;
         long numeroConta;
         boolean initialDeposit;
 

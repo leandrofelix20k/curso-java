@@ -2,7 +2,6 @@ package exercicios_propostos.s12_enums.ex02;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.concurrent.CompletionException;
 
 public class Post {
     private Date momment;

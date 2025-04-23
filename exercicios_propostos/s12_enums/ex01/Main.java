@@ -1,9 +1,7 @@
 package exercicios_propostos.s12_enums.ex01;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
