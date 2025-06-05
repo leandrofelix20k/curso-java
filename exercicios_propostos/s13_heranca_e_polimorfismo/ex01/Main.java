@@ -12,6 +12,7 @@ public class Main {
 
         System.out.printf("Enter ther number of employees: ");
         int numEmployess = sc.nextInt();
+        sc.nextLine();
         List<Employee> employees = new ArrayList<>();
 
         for(int i = 0; i < numEmployess; i++) {
