@@ -19,6 +19,7 @@ public class Main {
         List<Product> produtos = new ArrayList<>();
 
         for(int i=0; i<numProdutos; i++) {
+            System.out.println(i);
             System.out.println("Product #" + (i + 1) + " data:");
 
             System.out.print("Common, used or imported (c/u/i)? ");
@@ -45,7 +46,6 @@ public class Main {
                     manufactureDate = sdf.parse(dataStr);
                 } catch (java.text.ParseException e) {
                     System.out.println("Invalid date format. Please use DD/MM/YYYY.");
-                    i--;
                     continue;
                 }
                 
